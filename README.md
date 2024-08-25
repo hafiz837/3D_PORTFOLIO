@@ -1,6 +1,6 @@
 # 3D Portfolio
 
-Welcome to the 3D Portfolio project! This project is a showcase of various 3D models and scenes, demonstrating skills in 3D modeling, rendering, and interactive design using modern web technologies. It aims to provide a visually engaging experience for users to explore different 3D works.
+Welcome to the **3D Portfolio** project! This project showcases a variety of 3D models and scenes, demonstrating skills in 3D modeling, rendering, and interactive design using modern web technologies. It aims to provide a visually engaging experience for users to explore different 3D works.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Welcome to the 3D Portfolio project! This project is a showcase of various 3D mo
 
 ## Project Description
 
-The **3D Portfolio** is a web-based project that showcases a collection of 3D models and scenes. It allows users to interact with the 3D objects, view them from different angles, and navigate through various projects. This portfolio is designed to highlight the creator's capabilities in 3D design, WebGL, and interactive web development.
+The **3D Portfolio** is a web-based project designed to showcase a collection of 3D models and scenes. It allows users to interact with 3D objects, view them from various angles, and navigate through different projects. This portfolio highlights the creator's capabilities in 3D design, WebGL, and interactive web development.
 
 ## Features
 
@@ -24,7 +24,7 @@ The **3D Portfolio** is a web-based project that showcases a collection of 3D mo
 - **Realistic Rendering:** Uses advanced lighting and shading techniques to create lifelike visuals.
 - **Multiple Scenes:** Navigate through different 3D projects and environments.
 - **Animations:** Support for animated models to demonstrate dynamic content.
-- **Responsive Design:** Optimized for viewing on both desktop and mobile devices.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
 - **User-Friendly Interface:** Easy navigation and intuitive controls.
 
 ## Installation
@@ -65,11 +65,11 @@ To set up the project locally, follow these steps:
 
 ## Technologies Used
 
-- **HTML5**: For structuring the web content.
-- **CSS3**: For styling and layout.
-- **JavaScript**: For adding interactivity and logic.
-- **WebGL**: For rendering 3D graphics in the web browser.
-- **Three.js**: A JavaScript library used to create and display animated 3D graphics.
+- **HTML5:** For structuring the web content.
+- **CSS3:** For styling and layout.
+- **JavaScript:** For adding interactivity and logic.
+- **WebGL:** For rendering 3D graphics in the web browser.
+- **Three.js:** A JavaScript library used to create and display animated 3D graphics.
 - **React.js** (if applicable): For building the user interface components and managing state.
 
 ## Contributing
@@ -90,18 +90,18 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or suggestions, feel free to reach out:
 
-- **GitHub**: [hafiz837](https://github.com/hafiz837)
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **GitHub:** [hafiz837](https://github.com/hafiz837)
+- **Email:** [m.umair9292@gmail.com](mailto:m.umair9292@gmail.com)
 
 ## Screenshots
 
 Include screenshots of your portfolio or specific 3D models here.
 
-![HERO](https://drive.google.com/file/d/1VZFLKn8XBeUN7OUNgZTXUenmlcEkpE46/view?usp=drive_link)
-![Screenshot 2](path/to/screenshot2.png)
+![Hero](hero.png)
+![Overview](overview.png)
+![Skills](skills.png)
+![Contact](contact.png)
 
 ---
 
-This README file provides a comprehensive overview of your project, detailing its purpose, features, setup instructions, and more. You can customize this template further to suit the specifics of your project, such as adding actual screenshots, filling in real contact information, and including more precise descriptions of your features and technologies used.
-
-Let me know if you need more help or specific details to be added!
+Thank you for exploring the **3D Portfolio** project! If you have any questions or contributions, feel free to reach out or open an issue.
