@@ -23,7 +23,7 @@ function App() {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-10">
           <Contact />
           <div className="absolute inset-0 -z-10">
