@@ -8,6 +8,11 @@ import { projects } from "../constants/constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_Link }) => {
+  const handleGitHubClick = () => {
+    console.log("GitHub link clicked:", source_code_Link); // Debugging line
+    window.open(source_code_Link, "_blank");
+  };
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="w-full sm:w-[360px]">
       <Tilt
@@ -22,7 +27,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_Link }
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_Link, "_blank")}
+              onClick={handleGitHubClick}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -68,7 +73,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-        <div className="mt-20 flex flex-wrap gap-7 justify-center">
+      <div className="mt-20 flex flex-wrap gap-7 justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

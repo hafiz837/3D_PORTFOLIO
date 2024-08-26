@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import mylogo from "./mylogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -32,10 +33,15 @@ import ideoversity from "./company/ideoversity.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import hero from "./hero.png";
+import wanderlust from "./wanderlust.png";
+import githubprofile from "./githubprofile.png";
+
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  mylogo,
   logo,
   backend,
   creator,
@@ -62,11 +68,14 @@ export {
   starbucks,
   tesla,
   carrent,
+  hero,
   jobit,
   tripguide,
   devsinc,
   freelancer,
   ideoversity,
   express,
-  bootstrap
+  bootstrap,
+  wanderlust,
+  githubprofile
 };

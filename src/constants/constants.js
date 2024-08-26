@@ -21,13 +21,16 @@ import {
     tesla,
     shopify,
     carrent,
+    hero,
     jobit,
     tripguide,
     threejs,
     devsinc,
     ideoversity,
     express,
-    bootstrap
+    bootstrap,
+    wanderlust,
+    githubprofile
   } from "../assets";
   
    const navLinks = [
@@ -194,67 +197,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "3D Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "3D Portfolio is a web-based showcase featuring interactive 3D models and scenes, demonstrating expertise in 3D design and web technologies. It allows users to explore and interact with various 3D projects through intuitive controls and realistic rendering. This portfolio highlights the creator's skills in WebGL, Three.js, and responsive web development.",
       tags: [
         {
-          name: "react",
+          name: "ThreeJS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "ReactJS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwindCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: hero,
+      source_code_Link: "https://github.com/hafiz837/3D_PORTFOLIO",
     },
     {
-      name: "Job IT",
+      name: "Wanderlust Marketplace",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Wanderlust Marketplace is a travel platform built with Node.js, Express.js, and MongoDB, featuring secure user authentication via Passport.js, RESTful APIs, and geo-coding. It includes file storage with Multer, session management, and real-time updates with Connect Flash. The marketplace connects users with local travel experiences, offering a seamless booking and discovery process.",
       tags: [
         {
-          name: "react",
+          name: "Express",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Multer",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "MVC",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: wanderlust,
+      source_code_Link: "https://github.com/hafiz837/Marketplace-Wanderlust.git",
     },
     {
-      name: "Trip Guide",
+      name: "Github Profile Viewer",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The GitHub Profile Viewer is a React-based application that fetches and displays GitHub user profiles, including repositories, followers, and following lists. It uses the GitHub API, local storage for caching, and provides a smooth user experience with navigation and error notifications using react-toastify.",
       tags: [
         {
-          name: "nextjs",
+          name: "ReactJs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Resful Api",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: githubprofile,
+      source_code_Link: "https://github.com/hafiz837/Git-Hub-Profile-Viewer",
     },
   ];
   

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants/constants";
-import { logo, menu, close } from "../assets";
+import { mylogo, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -19,10 +19,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={mylogo} alt="logo" className="w-14 h-14 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer hidden sm:block">
             Hafiz Umair
-            <span className="block sm:hidden">Web Developer</span>
+            <span className="hidden lg:block">Web Developer</span>
           </p>
         </RouterLink>
         <ul className="list-none hidden sm:flex flex-row gap-10">
