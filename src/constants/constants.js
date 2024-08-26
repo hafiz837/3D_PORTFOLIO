@@ -145,11 +145,11 @@ import {
       iconBg: "white",
       date: "May 2022 - March 2024",
       points: [
-        "Large-Scale Web Application: Developed using React and Node.js, leading to a 30% increase in user satisfaction.",
-        "Backend Services: Built and maintained with Express.js and MongoDB, reducing downtime by 40%.",
-        "Advanced Features: Implemented optimizations that increased user engagement by 25%.",
-        "Enhanced Full-Stack Apps: Added features with React and Node.js for a seamless user experience.",
-        "Timely Project Delivery: Collaborated effectively to ensure on-time delivery of high-quality solutions."
+        "Designed and developed a large-scale web application using React and Node.js, focusing on improving user experience and engagement. Built and optimized backend services to ensure reliability and high performance.",
+        "Created and maintained backend systems with Express.js and MongoDB for stable and efficient operations.",
+        "Developed new features and enhancements to improve user interaction and application functionality.",
+        "Managed all aspects of the project independently, ensuring timely delivery and high-quality standards.",
+       
       ],
     },
     {
