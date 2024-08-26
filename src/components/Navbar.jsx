@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants/constants";
-import { mylogo, menu, close } from "../assets";
+import { mylogo, menu, close,resume } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -29,12 +29,25 @@ const Navbar = () => {
           {navLinks.map((navLink) => (
             <li
               key={navLink.id}
-              className={`${active === navLink.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+              className={`${
+                active === navLink.title ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(navLink.title)}
             >
               <a href={`#${navLink.id}`}>{navLink.title}</a>
             </li>
           ))}
+          {/* Resume Button */}
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1uuOBd4tKelFsYizlirIAHl7M5xY6i0Dx/view?usp=drive_link" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white bg-[#915eff] px-4 py-2 rounded-md hover:bg-[#a186d4] transition-all"
+            >
+             Resume
+            </a>
+          </li>
         </ul>
         <div className="sm:hidden flex items-center justify-end">
           <img
@@ -44,13 +57,17 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
           <div
-            className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-20 right-0 mx-2 min-w-[140px] z-10 rounded-xl`}
+            className={`${
+              !toggle ? "hidden" : "flex"
+            } p-6 black-gradient absolute top-20 right-0 mx-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex flex-col gap-4">
               {navLinks.map((navLink) => (
                 <li
                   key={navLink.id}
-                  className={`${active === navLink.title ? "text-white" : "text-secondary"} cursor-pointer text-[16px]`}
+                  className={`${
+                    active === navLink.title ? "text-white" : "text-secondary"
+                  } cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(navLink.title);
@@ -59,6 +76,17 @@ const Navbar = () => {
                   <a href={`#${navLink.id}`}>{navLink.title}</a>
                 </li>
               ))}
+       
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1uuOBd4tKelFsYizlirIAHl7M5xY6i0Dx/view?usp=drive_link" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white bg-[#915eff] px-4 py-2 rounded-md hover:bg-[#a186d4] transition-all"
+                >
+                 Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>

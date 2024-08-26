@@ -21,9 +21,13 @@ const Hero = () => {
             A Web Developer, Developed 3D visuals, user <br /> interfaces and
             Web Applications
           </p>
+         
         </div>
       </div>
-      <ComputersCanvas />
+  
+      <div className="w-full h-full">
+        <ComputersCanvas />
+      </div>
       <div className="absolute bottom-10 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[25px] h-[45px] rounded-3xl border-[3px] border-secondary flex justify-center items-start">

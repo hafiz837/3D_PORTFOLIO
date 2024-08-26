@@ -23,6 +23,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import express from "./tech/express.png";
 import bootstrap from "./tech/bootstrap.png";
+import resume from "./tech/Resume.pdf";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -77,5 +78,6 @@ export {
   express,
   bootstrap,
   wanderlust,
-  githubprofile
+  githubprofile,
+  resume,
 };
