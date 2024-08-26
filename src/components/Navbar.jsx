@@ -37,7 +37,7 @@ const Navbar = () => {
               <a href={`#${navLink.id}`}>{navLink.title}</a>
             </li>
           ))}
-          {/* Resume Button */}
+
           <li>
             <a
               href="https://drive.google.com/file/d/1uuOBd4tKelFsYizlirIAHl7M5xY6i0Dx/view?usp=drive_link" 
